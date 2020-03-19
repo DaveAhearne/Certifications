@@ -31,5 +31,37 @@ However if you do want to skip portions the portions to skip are:
 * Basic EC2 stuff - Because it covers basic things like setting up simple instances, connecting to them etc.
 * **Parts** of the servless websites and Alexa Skills - If you've done it in the solutions architect course before, *you will need to do the parts that concern X-Ray & Step Functions*
 
-## Finding Resources for the Course
+## The Exam Blueprint
 
+There are five different domains that the exam covers that have different weightings applied to them:
+1. Deployment (22%)
+2. Security (26%)
+3. Development with AWS Services (30%)
+4. Refactoring (10%)
+5. Monitoring and Troubleshooting (12%)
+
+The exam guide can be found [here](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS_Certified_Developer_Associate-Exam_Guide_EN_1.4.pdf)
+
+The recommended experience level for this exam is that you either:
+* Have created an AWS application
+* Have had experience in maintaining an AWS base application for 1+ years
+
+Also knowledge of atleast *one* programming language is recommended because of indepth material that covers development methodologies
+
+While the exam guide does list some white-papers that you can cover if you want to follow the material in depth in a single area its not neccessary in order to just pass the exam. But in general some areas to cover should be:
+* Blue/Green deployments - Comes up in elastic beanstalk deployments
+
+The exam content will be **multiple choice and multiple response** format (One or many correct answers) with the score being from 100-1000 with **720 being the passing grade**
+
+There is a bigger focus on security this time round in the course now, in particular the focus on using IAM role based authentication over secret access keys in code - If you ever get an exam question around this the *IAM role based option is normally the correct answer*
+
+Refactoring is also a bigger thing in this exam, in terms of "Optimizing applications to best use AWS services and features and migrating code to AWS" comes up fairly heavily in the *API Gateway* section **especially when using XML/SOAP currently**
+
+Details of the exam are:
+* 135 Minutes long
+* 65 Questions long
+* You will get your results immediately
+* The passmark is 720/1000
+* Its Multiple choice
+* **The qualification is valid for two years**
+* The questions are all scenario based
